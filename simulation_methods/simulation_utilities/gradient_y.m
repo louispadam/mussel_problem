@@ -1,5 +1,7 @@
 function return_data = gradient_y(f,params)
 
+    sys_L = params.sys_L;
+
     step = sys_L/length(f);
     
     % for periodic boundary conditions

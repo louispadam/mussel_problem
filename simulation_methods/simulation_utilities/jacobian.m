@@ -1,5 +1,7 @@
 function return_data = jacobian(f,params)
 
+    sys_L = params.sys_L;
+
     step = sys_L/length(f);
 
     lap = [0,  1, 0;
